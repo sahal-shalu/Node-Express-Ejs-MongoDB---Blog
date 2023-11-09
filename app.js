@@ -21,5 +21,5 @@ app.use('/',require('./server/routes/main'))
 
 
 app.listen(PORT,()=>{
-    console.log(`app listerning on port${PORT}`)
+    console.log(`http://localhost:${PORT}`)
 })
